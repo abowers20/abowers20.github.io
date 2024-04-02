@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Bowers</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link href="styles.css" rel="stylesheet">
+
+    
+</head>
+<body>
+    <header>
+        <h1><a href="https://www.linkedin.com/in/bowersalexander/">Alex Bowers</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="career.html">Career</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="extracurriculars.html">Extracurriculars</a></li>
+                <li><a href="interests.html">Interests</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <img src="images/headshot.jpg" alt="Profile Picture">
+        
+        <h2>
+            About
+        </h2>
+
+        <div class="text-container">
+            <p>Finance student at Babson College with experience as President of the Babson Finance Association, Facilitator of SPEAR IB, Sector Lead in the Babson College Fund, Co-Founder of Babson's Scholars of Finance chapter, and Student Advisor in the Stephen D. Cutler Center for Investments and Finance.</p> 
+
+            <p>Professional experiences include Investment Banking Summer Analyst at GP Bullhound, Investment Banking Summer Analyst at Wellesley Hills Financial, and Research Assistant at The Daily Shot.</p>  
+            
+            <p>These experiences have and will continue to prepare me for success as an incoming Investment Banking Summer Analyst at Jefferies.</p>
+                
+            <p>All of the aforementioned commitments have required me to become an organized, driven problem-solver. I seek out opportunities for personal growth, fueled by a curious mind that is passionate about finance.</p>
+        </div>
+    </section>
+    
+    <div class="center">
+        <button onclick="window.open('resume/Alexander-Bowers-Resume.pdf', '_blank')" download="Alexander-Bowers-Resume">Resume Download</button>
+    </div>
+
+   <!-- 
+    <section class="container mt-4">
+        <h3 class="text-center">Contact Me</h3>
+        <form id="contactForm" action="/submit_form" method="POST">
+            <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter the subject">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="4" placeholder="Enter your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>    
+    -->
+
+    <footer>
+        <p>
+            &copy; 2024 Alex Bowers
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.getElementById("contactForm").addEventListener("submit", function(event) {
+                alert("Thank you! Your form has been submitted successfully.");
+            });
+        });
+    </script>
+
+</body>
+</html>
